@@ -1,0 +1,12 @@
+[project]
+name = "001-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "langchain>=1.2.8",
+    "langchain-openai>=1.1.7",
+    "python-dotenv>=1.2.1",
+]
