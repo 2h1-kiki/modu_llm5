@@ -3,24 +3,35 @@ name = "001-chatbot"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "beautifulsoup4>=4.14.3",
+    "defusedxml>=0.7.1",
+    "faiss-cpu>=1.13.2",
     "gensim>=4.4.0",
     "gradio>=6.5.1",
     "ipykernel>=7.1.0",
+    "jq>=1.11.0",
     "kiwipiepy>=0.22.2",
     "langchain>=1.2.8",
     "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.1",
+    "langchain-core>=1.2.14",
     "langchain-google-genai>=4.2.0",
+    "langchain-huggingface>=1.2.0",
+    "langchain-ollama>=1.0.1",
     "langchain-openai>=1.1.7",
+    "langchain-pinecone>=0.2.13",
+    "langchain-text-splitters>=1.1.1",
     "matplotlib>=3.10.8",
     "pillow>=12.1.0",
+    "pinecone-notebooks>=0.1.1",
+    "pymupdf>=1.27.1",
+    "pypdf>=6.7.0",
     "python-dotenv>=1.2.1",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
     "sentence-transformers>=5.2.2",
     "torch>=2.10.0",
-    "transformers>=5.1.0",
+    "transformers>=4.41.0,<5",
 ]
