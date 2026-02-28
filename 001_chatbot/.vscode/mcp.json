@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "langfuse-docs": {
+      "url": "https://langfuse.com/api/mcp",
+      "type": "http"
+    },
+    "langchain-langgraph-docs": {
+      "url": "https://docs.langchain.com/mcp",
+      "type": "http"
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "type": "stdio"
+    }
+  },
+  "inputs": []
+}
